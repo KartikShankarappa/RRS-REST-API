@@ -19,7 +19,7 @@ public class APIConfig extends ResourceConfig {
         beanConfig.setVersion("1.0.0");
         beanConfig.setSchemes(new String[]{"http"});
         beanConfig.setHost("localhost:8080");
-        beanConfig.setBasePath("/RRSRestApp/api/");
+        beanConfig.setBasePath("/RRSRestApp/api");
         beanConfig.setResourcePackage("com.kartik");
         beanConfig.setDescription("REST API for Restaurant Reservation System");
         beanConfig.setScan(true);
